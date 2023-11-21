@@ -1,11 +1,27 @@
 <h1>Signup!</h1>
 
 <%= form_for @user, url: '/users' do |f| %>
-<table>
-  <p> Name: <%= f.text_field :name %> </p>
-  <p> Email: <%= f.text_field :email %> </p>
-  <p> Password: <%= f.password_field :password %> </p>
-  <p> Password Confirmation: <%= f.password_field :password_confirmation %> </p>
-</table>
+  <table>
+     <tr>
+      <td>Name:</td>
+      <td><%= f.text_field :name %></td>
+      <td><%= @user.errors[:name].join(', ') if @user.errors[:name].any? %></td>
+    </tr>
+     <tr>
+      <td>Email:</td>
+      <td><%= f.text_field :email %></td>
+      <td><%= @user.errors[:email].join(', ') if @user.errors[:email].any? %></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><%= f.password_field :password %></td>
+      <td><%= @user.errors[:password].first if @user.errors[:password].any? %></td>
+    </tr>
+    <tr>
+      <td>Password Confirmation:</td>
+      <td><%= f.password_field :password_confirmation %></td>
+      <td><%= @user.errors[:password_confirmation].first if @user.errors[:password_confirmation].any? %></td>
+    </tr>
+  </table>
   <%= f.submit "Submit" %>
 <% end %>
