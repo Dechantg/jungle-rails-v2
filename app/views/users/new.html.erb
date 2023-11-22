@@ -3,9 +3,14 @@
 <%= form_for @user, url: '/users' do |f| %>
   <table>
      <tr>
-      <td>Name:</td>
-      <td><%= f.text_field :name %></td>
-      <td><%= @user.errors[:name].join(', ') if @user.errors[:name].any? %></td>
+      <td>First Name:</td>
+      <td><%= f.text_field :first_name %></td>
+      <td><%= @user.errors[:first_name].join(', ') if @user.errors[:first_name].any? %></td>
+    </tr>
+     <tr>
+      <td>Last Name:</td>
+      <td><%= f.text_field :last_name %></td>
+      <td><%= @user.errors[:last_name].join(', ') if @user.errors[:last_name].any? %></td>
     </tr>
      <tr>
       <td>Email:</td>

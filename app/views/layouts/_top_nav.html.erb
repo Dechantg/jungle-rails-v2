@@ -73,7 +73,7 @@
     </div>
     <div class="navbar-nav ms-auto">
   <% if current_user %>
-    <span class="navbar-text me-3">Signed in as <%= current_user.name %></span>
+    <span class="navbar-text me-3">Signed in as <%= current_user.first_name %></span>
     <%= link_to "Logout", '/logout', class: 'nav-link' %>
   <% else %>
     <%= link_to 'Login', '/login', class: 'nav-link' %>

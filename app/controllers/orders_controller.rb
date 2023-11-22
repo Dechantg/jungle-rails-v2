@@ -30,7 +30,7 @@ class OrdersController < ApplicationController
     Stripe::Charge.create(
       source:      params[:stripeToken],
       amount:      cart_subtotal_cents,
-      description: "Khurram Virani's Jungle Order",
+      description: "#{current_user.first_name} #{current_user.last_name}'s Jungle Order",
       currency:    'cad'
     )
   end
@@ -54,6 +54,16 @@ class OrdersController < ApplicationController
     end
     order.save!
     order
+  end
+
+
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+  helper_method :current_user
+
+  def authorize
+    redirect_to '/login' unless current_user
   end
 
 end
