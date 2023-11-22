@@ -27,6 +27,12 @@ class CartsController < ApplicationController
 
   def current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  
+    @current_user ||= User.new(
+      first_name: 'Khurram',
+      last_name: 'Virani',
+      email: 'kvirani@gmail.com'
+    )
   end
   helper_method :current_user
 
