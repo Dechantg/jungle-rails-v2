@@ -1,5 +1,7 @@
 
 
+
+
 it("Confirm user can click on product link", () => {
   cy.visit("/");
   cy.get('article').then(($article) => {
@@ -7,9 +9,7 @@ it("Confirm user can click on product link", () => {
       const productPath = $link.attr('href');
       cy.wrap($link).then((link) => console.log(link));
       cy.wrap($link).find('img').click();
-
-
-     
+    
     });
   });
 
