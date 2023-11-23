@@ -70,6 +70,7 @@
         
       </ul>
 
+
     </div>
     <div class="navbar-nav ms-auto">
   <% if current_user %>
@@ -101,3 +102,11 @@ const gnr = () => {
   
 })()
   </script>
+
+<% if active_sale? %>
+
+<p class = "alert alert-info">
+
+    There is an active <%= active_sale?.name %> sale going on!!! 
+    Everything is <strong><%= active_sale?.percent_off %> % off</strong>.
+  <% end %>
