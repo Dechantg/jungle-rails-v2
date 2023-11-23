@@ -54,6 +54,20 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
-!["Screenshot of Main Feed"](https://github.com/Dechantg/photolabs/blob/main/docs/photolabs-main-page.png)
-
-
+!["Screenshot of Admin Login"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/admin-login.jpg)
+!["Screenshot of Basic Dashboard"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/basic-dashboard.jpg)
+!["Screenshot of Cart With Items"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/cart-with-items.jpg)
+!["Screenshot of Category Admin Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/catagory-admin.jpg)
+!["Screenshot of Creat Product Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/create-product.jpg)
+!["Screenshot of Create Sale"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/create-sale.jpg)
+!["Screenshot of Empty Cart"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/empty-cart.jpg)
+!["Screenshot of Home Screen With Sale Anouncement"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/home-screen-with-sale.jpg)
+!["Screenshot of Login Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/login-page.jpg)
+!["Screenshot of Product Admin Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/product-admin.jpg)
+!["Screenshot of Product Feed With Sold Out"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/product-feed-with-sold-out.jpg)
+!["Screenshot of Product Feed"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/product-feed.jpg)
+!["Screenshot of Sales Admin Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/sales-admin.jpg)
+!["Screenshot of Sample Order Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/sample-order.jpg)
+!["Screenshot of Sample Payment"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/sample-payment.jpg)
+!["Screenshot of Sign Up Validations"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/sign-up-validations.jpg)
+!["Screenshot of Singup Page"](https://github.com/Dechantg/jungle-rails-v2/blob/master/docs/signup-page.jpg)
